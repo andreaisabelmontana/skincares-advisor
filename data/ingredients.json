@@ -1,0 +1,1459 @@
+{
+  "meta": {
+    "schema": "skincares-advisor/ingredient-kb@1",
+    "disclaimer": "Educational reference compiled from general cosmetic-science and dermatology common knowledge. Not medical advice. Comedogenic ratings are approximate and context-dependent (concentration, formulation, and individual skin vary). Always patch-test new products and consult a professional for medical concerns.",
+    "function_vocabulary": [
+      "humectant",
+      "emollient",
+      "occlusive",
+      "exfoliant",
+      "antioxidant",
+      "surfactant",
+      "preservative",
+      "uv_filter",
+      "fragrance",
+      "soothing",
+      "barrier_repair",
+      "brightening",
+      "anti_aging",
+      "antimicrobial",
+      "solvent",
+      "ph_adjuster",
+      "chelator",
+      "thickener",
+      "emulsifier"
+    ]
+  },
+  "ingredients": [
+    {
+      "inci": "Aqua",
+      "synonyms": ["water", "eau", "purified water", "aqua/water/eau"],
+      "functions": ["solvent"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "The base solvent of most water-phase products. Inert on its own."
+    },
+    {
+      "inci": "Glycerin",
+      "synonyms": ["glycerine", "glycerol"],
+      "functions": ["humectant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Classic humectant; draws water into the stratum corneum. Gentle and near-universal."
+    },
+    {
+      "inci": "Hyaluronic Acid",
+      "synonyms": ["ha", "hydrolyzed hyaluronic acid"],
+      "functions": ["humectant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Large-molecule humectant that holds water at the surface. Best layered under an occlusive."
+    },
+    {
+      "inci": "Sodium Hyaluronate",
+      "synonyms": ["sodium ha"],
+      "functions": ["humectant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "The salt form of hyaluronic acid; smaller and more easily absorbed."
+    },
+    {
+      "inci": "Butylene Glycol",
+      "synonyms": ["1,3-butylene glycol"],
+      "functions": ["humectant", "solvent"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Lightweight humectant and solvent; helps other actives penetrate."
+    },
+    {
+      "inci": "Propylene Glycol",
+      "synonyms": ["1,2-propanediol", "pg"],
+      "functions": ["humectant", "solvent"],
+      "comedogenic": 1,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Humectant and penetration enhancer; a recognised contact allergen for a minority."
+    },
+    {
+      "inci": "Pentylene Glycol",
+      "synonyms": [],
+      "functions": ["humectant", "solvent"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Multifunctional humectant with mild preservative-boosting properties."
+    },
+    {
+      "inci": "Propanediol",
+      "synonyms": ["1,3-propanediol"],
+      "functions": ["humectant", "solvent"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Plant-derived glycol used as a gentler alternative to propylene glycol."
+    },
+    {
+      "inci": "Betaine",
+      "synonyms": ["trimethylglycine"],
+      "functions": ["humectant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Amino-acid-derived humectant; osmoprotectant that softens skin feel."
+    },
+    {
+      "inci": "Panthenol",
+      "synonyms": ["pro-vitamin b5", "provitamin b5", "dexpanthenol"],
+      "functions": ["humectant", "soothing", "barrier_repair"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Provitamin B5; hydrates and supports barrier repair. Common after treatments."
+    },
+    {
+      "inci": "Urea",
+      "synonyms": ["carbamide"],
+      "functions": ["humectant", "exfoliant"],
+      "comedogenic": 1,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Humectant at low levels; keratolytic exfoliant at high levels. Can sting compromised skin."
+    },
+    {
+      "inci": "Sodium PCA",
+      "synonyms": ["pca"],
+      "functions": ["humectant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "A natural-moisturizing-factor component; binds water in the stratum corneum."
+    },
+    {
+      "inci": "Trehalose",
+      "synonyms": [],
+      "functions": ["humectant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Sugar-based humectant valued for protecting cells against dehydration stress."
+    },
+    {
+      "inci": "Sorbitol",
+      "synonyms": [],
+      "functions": ["humectant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Sugar-alcohol humectant; mild and often paired with glycerin."
+    },
+    {
+      "inci": "Honey",
+      "synonyms": ["mel"],
+      "functions": ["humectant", "soothing"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Natural humectant with mild antimicrobial activity."
+    },
+    {
+      "inci": "Aloe Barbadensis Leaf Juice",
+      "synonyms": ["aloe", "aloe vera", "aloe barbadensis"],
+      "functions": ["humectant", "soothing"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Cooling, lightly hydrating botanical used to calm stressed or sun-exposed skin."
+    },
+    {
+      "inci": "Caprylic/Capric Triglyceride",
+      "synonyms": ["cct", "fractionated coconut oil"],
+      "functions": ["emollient"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Lightweight emollient derived from coconut/palm; good slip, low pore risk."
+    },
+    {
+      "inci": "Squalane",
+      "synonyms": [],
+      "functions": ["emollient"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Stable, lightweight emollient mimicking skin lipids; well tolerated by oily skin."
+    },
+    {
+      "inci": "Squalene",
+      "synonyms": [],
+      "functions": ["emollient"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Unsaturated lipid native to sebum; oxidises faster than its hydrogenated form squalane."
+    },
+    {
+      "inci": "Cetyl Alcohol",
+      "synonyms": [],
+      "functions": ["emollient", "emulsifier", "thickener"],
+      "comedogenic": 2,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Fatty alcohol that softens and thickens; not drying despite the name."
+    },
+    {
+      "inci": "Cetearyl Alcohol",
+      "synonyms": [],
+      "functions": ["emollient", "emulsifier", "thickener"],
+      "comedogenic": 2,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Blend of cetyl and stearyl fatty alcohols; emulsifies and gives creams body."
+    },
+    {
+      "inci": "Stearic Acid",
+      "synonyms": [],
+      "functions": ["emollient", "emulsifier"],
+      "comedogenic": 2,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Fatty acid that thickens and stabilises emulsions."
+    },
+    {
+      "inci": "Isopropyl Myristate",
+      "synonyms": ["ipm"],
+      "functions": ["emollient"],
+      "comedogenic": 5,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Light, fast-absorbing ester; notably pore-clogging for acne-prone skin."
+    },
+    {
+      "inci": "Isopropyl Palmitate",
+      "synonyms": [],
+      "functions": ["emollient"],
+      "comedogenic": 4,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Emollient ester with a high comedogenic reputation."
+    },
+    {
+      "inci": "Coconut Oil",
+      "synonyms": ["cocos nucifera oil"],
+      "functions": ["emollient", "occlusive"],
+      "comedogenic": 4,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Rich plant oil; nourishing on body skin but frequently breaks out facial skin."
+    },
+    {
+      "inci": "Cocoa Butter",
+      "synonyms": ["theobroma cacao seed butter"],
+      "functions": ["emollient", "occlusive"],
+      "comedogenic": 4,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Heavy butter; great for dry body skin, often too rich for the face."
+    },
+    {
+      "inci": "Shea Butter",
+      "synonyms": ["butyrospermum parkii butter", "butyrospermum parkii"],
+      "functions": ["emollient", "occlusive"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Rich emollient butter that is surprisingly low on the comedogenic scale."
+    },
+    {
+      "inci": "Jojoba Oil",
+      "synonyms": ["simmondsia chinensis seed oil", "jojoba"],
+      "functions": ["emollient"],
+      "comedogenic": 2,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Liquid wax ester closely matching sebum; tolerated by many oily skins."
+    },
+    {
+      "inci": "Argan Oil",
+      "synonyms": ["argania spinosa kernel oil"],
+      "functions": ["emollient", "antioxidant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Lightweight oil rich in vitamin E and fatty acids; low pore risk."
+    },
+    {
+      "inci": "Rosehip Oil",
+      "synonyms": ["rosa canina fruit oil", "rosa moschata seed oil", "rosehip seed oil"],
+      "functions": ["emollient", "antioxidant"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Source of provitamin-A and essential fatty acids; supports tone and texture."
+    },
+    {
+      "inci": "Marula Oil",
+      "synonyms": ["sclerocarya birrea seed oil"],
+      "functions": ["emollient", "antioxidant"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Oleic-rich oil with antioxidants; light enough for most skin types."
+    },
+    {
+      "inci": "Sunflower Seed Oil",
+      "synonyms": ["helianthus annuus seed oil"],
+      "functions": ["emollient"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Linoleic-rich oil that supports the barrier; very low pore risk."
+    },
+    {
+      "inci": "Olive Oil",
+      "synonyms": ["olea europaea fruit oil"],
+      "functions": ["emollient", "occlusive"],
+      "comedogenic": 2,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Oleic-heavy oil; moisturising but can feel heavy and disrupt some barriers."
+    },
+    {
+      "inci": "Mineral Oil",
+      "synonyms": ["paraffinum liquidum", "paraffin oil"],
+      "functions": ["occlusive", "emollient"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Inert, refined occlusive; non-irritating and lower pore risk than its reputation."
+    },
+    {
+      "inci": "Petrolatum",
+      "synonyms": ["petroleum jelly", "vaseline"],
+      "functions": ["occlusive"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Gold-standard occlusive; greatly reduces water loss. Heavy but rarely irritating."
+    },
+    {
+      "inci": "Dimethicone",
+      "synonyms": ["silicone"],
+      "functions": ["occlusive", "emollient"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Silicone that smooths skin feel and slows water loss without a greasy finish."
+    },
+    {
+      "inci": "Cyclopentasiloxane",
+      "synonyms": ["cyclomethicone"],
+      "functions": ["emollient", "solvent"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Volatile silicone giving a dry, silky slip before it evaporates."
+    },
+    {
+      "inci": "Lanolin",
+      "synonyms": [],
+      "functions": ["occlusive", "emollient"],
+      "comedogenic": 2,
+      "irritant": false,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Sheep-derived occlusive; effective but a known contact allergen for some."
+    },
+    {
+      "inci": "Beeswax",
+      "synonyms": ["cera alba", "cera flava"],
+      "functions": ["occlusive", "emollient", "thickener"],
+      "comedogenic": 2,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Natural wax that thickens balms and forms a breathable seal."
+    },
+    {
+      "inci": "Ceramide NP",
+      "synonyms": ["ceramide 3", "ceramide np (ceramide 3)"],
+      "functions": ["barrier_repair", "emollient"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Skin-identical lipid that helps rebuild the barrier and retain moisture."
+    },
+    {
+      "inci": "Ceramide AP",
+      "synonyms": ["ceramide 6 ii"],
+      "functions": ["barrier_repair", "emollient"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Barrier ceramide used alongside NP and EOP to mirror skin's lipid ratio."
+    },
+    {
+      "inci": "Ceramide EOP",
+      "synonyms": ["ceramide 1"],
+      "functions": ["barrier_repair", "emollient"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Long-chain ceramide important for a well-organised barrier."
+    },
+    {
+      "inci": "Cholesterol",
+      "synonyms": [],
+      "functions": ["barrier_repair", "emollient"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Essential barrier lipid; works best with ceramides and fatty acids."
+    },
+    {
+      "inci": "Niacinamide",
+      "synonyms": ["nicotinamide", "vitamin b3", "vitamin pp"],
+      "functions": ["barrier_repair", "brightening", "soothing"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Versatile B3; supports the barrier, evens tone, calms redness, regulates sebum."
+    },
+    {
+      "inci": "Allantoin",
+      "synonyms": [],
+      "functions": ["soothing", "barrier_repair"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Gentle soother that promotes a calmer, smoother surface."
+    },
+    {
+      "inci": "Centella Asiatica Extract",
+      "synonyms": ["cica", "centella asiatica", "madecassoside", "asiaticoside"],
+      "functions": ["soothing", "antioxidant", "barrier_repair"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Botanical popular for calming reactive, compromised skin."
+    },
+    {
+      "inci": "Bisabolol",
+      "synonyms": ["alpha-bisabolol"],
+      "functions": ["soothing"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Chamomile-derived soothing agent that reduces visible irritation."
+    },
+    {
+      "inci": "Madecassoside",
+      "synonyms": [],
+      "functions": ["soothing", "barrier_repair"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Isolated centella component focused on calming and recovery."
+    },
+    {
+      "inci": "Colloidal Oatmeal",
+      "synonyms": ["avena sativa", "oat kernel flour"],
+      "functions": ["soothing", "barrier_repair"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Finely milled oat that relieves itch and supports the barrier; used in eczema care."
+    },
+    {
+      "inci": "Green Tea Extract",
+      "synonyms": ["camellia sinensis leaf extract", "egcg", "camellia sinensis"],
+      "functions": ["antioxidant", "soothing"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Polyphenol-rich antioxidant that helps defend against environmental stress."
+    },
+    {
+      "inci": "Ascorbic Acid",
+      "synonyms": ["l-ascorbic acid", "vitamin c", "laa"],
+      "functions": ["antioxidant", "brightening"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Potent antioxidant that brightens; low pH form can sting sensitive skin."
+    },
+    {
+      "inci": "Sodium Ascorbyl Phosphate",
+      "synonyms": ["sap"],
+      "functions": ["antioxidant", "brightening"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Stable, gentle vitamin C derivative; slower but easier on reactive skin."
+    },
+    {
+      "inci": "Magnesium Ascorbyl Phosphate",
+      "synonyms": ["map"],
+      "functions": ["antioxidant", "brightening"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Water-soluble, stable vitamin C derivative suited to sensitive skin."
+    },
+    {
+      "inci": "Tetrahexyldecyl Ascorbate",
+      "synonyms": ["thd ascorbate"],
+      "functions": ["antioxidant", "brightening"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Oil-soluble, stable vitamin C derivative with good penetration."
+    },
+    {
+      "inci": "Tocopherol",
+      "synonyms": ["vitamin e", "alpha-tocopherol"],
+      "functions": ["antioxidant"],
+      "comedogenic": 2,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Lipid antioxidant that protects oils from oxidation and supports the barrier."
+    },
+    {
+      "inci": "Tocopheryl Acetate",
+      "synonyms": ["vitamin e acetate"],
+      "functions": ["antioxidant"],
+      "comedogenic": 2,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Stable ester form of vitamin E used widely in formulas."
+    },
+    {
+      "inci": "Ferulic Acid",
+      "synonyms": [],
+      "functions": ["antioxidant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Plant antioxidant that stabilises and boosts vitamin C and E."
+    },
+    {
+      "inci": "Resveratrol",
+      "synonyms": [],
+      "functions": ["antioxidant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Polyphenol antioxidant often paired with vitamin C."
+    },
+    {
+      "inci": "Coenzyme Q10",
+      "synonyms": ["ubiquinone", "coq10"],
+      "functions": ["antioxidant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Cellular antioxidant that helps defend against oxidative stress."
+    },
+    {
+      "inci": "Glutathione",
+      "synonyms": [],
+      "functions": ["antioxidant", "brightening"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Antioxidant tripeptide marketed for brightening; topical efficacy is modest."
+    },
+    {
+      "inci": "Salicylic Acid",
+      "synonyms": ["bha", "beta hydroxy acid", "beta-hydroxy acid"],
+      "functions": ["exfoliant"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": true,
+      "note": "Oil-soluble BHA that clears inside pores; high-dose use is cautioned in pregnancy."
+    },
+    {
+      "inci": "Glycolic Acid",
+      "synonyms": ["aha"],
+      "functions": ["exfoliant"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Smallest AHA; strong surface exfoliation and fast results, most likely to sting."
+    },
+    {
+      "inci": "Lactic Acid",
+      "synonyms": [],
+      "functions": ["exfoliant", "humectant"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Larger, gentler AHA with a hydrating side-effect; good entry-level acid."
+    },
+    {
+      "inci": "Mandelic Acid",
+      "synonyms": [],
+      "functions": ["exfoliant"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Large-molecule AHA; the gentlest common acid, friendly to sensitive skin."
+    },
+    {
+      "inci": "Gluconolactone",
+      "synonyms": ["pha", "polyhydroxy acid"],
+      "functions": ["exfoliant", "humectant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Polyhydroxy acid; very gentle exfoliation with humectant and antioxidant effects."
+    },
+    {
+      "inci": "Azelaic Acid",
+      "synonyms": [],
+      "functions": ["exfoliant", "brightening", "soothing"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Multitasker for acne, redness and dark spots; usually well tolerated, pregnancy-friendly."
+    },
+    {
+      "inci": "Retinol",
+      "synonyms": ["vitamin a"],
+      "functions": ["anti_aging", "exfoliant"],
+      "comedogenic": 1,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": true,
+      "note": "Vitamin-A derivative for turnover and collagen; retinoids are avoided in pregnancy."
+    },
+    {
+      "inci": "Retinal",
+      "synonyms": ["retinaldehyde"],
+      "functions": ["anti_aging", "exfoliant"],
+      "comedogenic": 1,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": true,
+      "note": "Faster-acting retinoid one step from retinoic acid; avoided in pregnancy."
+    },
+    {
+      "inci": "Retinyl Palmitate",
+      "synonyms": [],
+      "functions": ["anti_aging"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": true,
+      "note": "Mild ester retinoid; gentler and weaker, still grouped with pregnancy-caution retinoids."
+    },
+    {
+      "inci": "Tretinoin",
+      "synonyms": ["retinoic acid", "all-trans retinoic acid"],
+      "functions": ["anti_aging", "exfoliant"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": true,
+      "note": "Prescription retinoid; potent and clearly contraindicated in pregnancy."
+    },
+    {
+      "inci": "Adapalene",
+      "synonyms": [],
+      "functions": ["anti_aging", "exfoliant"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": true,
+      "note": "Synthetic retinoid used for acne; retinoid class, avoided in pregnancy."
+    },
+    {
+      "inci": "Bakuchiol",
+      "synonyms": [],
+      "functions": ["anti_aging", "antioxidant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Plant-derived retinol alternative with similar effects and less irritation."
+    },
+    {
+      "inci": "Palmitoyl Pentapeptide-4",
+      "synonyms": ["matrixyl", "palmitoyl pentapeptide"],
+      "functions": ["anti_aging"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Signal peptide that encourages collagen support; gentle."
+    },
+    {
+      "inci": "Acetyl Hexapeptide-8",
+      "synonyms": ["argireline"],
+      "functions": ["anti_aging"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Peptide marketed to soften expression-line appearance."
+    },
+    {
+      "inci": "Copper Tripeptide-1",
+      "synonyms": ["copper peptides", "ghk-cu"],
+      "functions": ["anti_aging", "barrier_repair"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Copper-bound peptide associated with repair and firmness."
+    },
+    {
+      "inci": "Alpha Arbutin",
+      "synonyms": ["arbutin"],
+      "functions": ["brightening"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Gentle brightener that interferes with melanin synthesis."
+    },
+    {
+      "inci": "Kojic Acid",
+      "synonyms": [],
+      "functions": ["brightening"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Fungal-derived brightener; effective but can irritate sensitive skin."
+    },
+    {
+      "inci": "Tranexamic Acid",
+      "synonyms": [],
+      "functions": ["brightening"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Targets melanin pathways; popular for stubborn discolouration and melasma."
+    },
+    {
+      "inci": "Licorice Root Extract",
+      "synonyms": ["glycyrrhiza glabra root extract", "licorice", "glabridin"],
+      "functions": ["brightening", "soothing", "antioxidant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Botanical that brightens and calms; gentle on most skin."
+    },
+    {
+      "inci": "Hydroquinone",
+      "synonyms": [],
+      "functions": ["brightening"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": true,
+      "note": "Strong depigmenting agent; regulated and generally avoided in pregnancy."
+    },
+    {
+      "inci": "Benzoyl Peroxide",
+      "synonyms": ["bpo"],
+      "functions": ["antimicrobial"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Antibacterial acne actives; effective on inflamed acne but drying and bleaches fabric."
+    },
+    {
+      "inci": "Sulfur",
+      "synonyms": ["colloidal sulfur"],
+      "functions": ["antimicrobial", "exfoliant"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Classic acne and seborrhea actives; drying with a characteristic odour."
+    },
+    {
+      "inci": "Zinc PCA",
+      "synonyms": [],
+      "functions": ["antimicrobial", "soothing"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Sebum-regulating zinc salt that also helps bind water."
+    },
+    {
+      "inci": "Tea Tree Oil",
+      "synonyms": ["melaleuca alternifolia leaf oil", "melaleuca alternifolia"],
+      "functions": ["antimicrobial", "fragrance"],
+      "comedogenic": 1,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Naturally antibacterial essential oil; can irritate and sensitise at higher levels."
+    },
+    {
+      "inci": "Zinc Oxide",
+      "synonyms": ["ci 77947"],
+      "functions": ["uv_filter"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Broad-spectrum mineral UV filter; gentle and good for sensitive skin."
+    },
+    {
+      "inci": "Titanium Dioxide",
+      "synonyms": ["ci 77891"],
+      "functions": ["uv_filter"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Mineral UV filter; reflects and scatters UV, well tolerated."
+    },
+    {
+      "inci": "Avobenzone",
+      "synonyms": ["butyl methoxydibenzoylmethane"],
+      "functions": ["uv_filter"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Organic UVA filter; needs stabilisers to avoid breaking down in sun."
+    },
+    {
+      "inci": "Octinoxate",
+      "synonyms": ["ethylhexyl methoxycinnamate"],
+      "functions": ["uv_filter"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Common UVB filter; lightweight with no white cast."
+    },
+    {
+      "inci": "Octocrylene",
+      "synonyms": [],
+      "functions": ["uv_filter"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "UVB/UVA-II filter and avobenzone stabiliser; occasional contact allergen."
+    },
+    {
+      "inci": "Homosalate",
+      "synonyms": [],
+      "functions": ["uv_filter"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "UVB filter that also helps solubilise other organic filters."
+    },
+    {
+      "inci": "Oxybenzone",
+      "synonyms": ["benzophenone-3"],
+      "functions": ["uv_filter"],
+      "comedogenic": 2,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Organic UV filter under scrutiny; more allergenic and reef-debated."
+    },
+    {
+      "inci": "Tinosorb S",
+      "synonyms": ["bis-ethylhexyloxyphenol methoxyphenyl triazine"],
+      "functions": ["uv_filter"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Modern broad-spectrum organic filter; photostable and elegant (outside the US)."
+    },
+    {
+      "inci": "Sodium Lauryl Sulfate",
+      "synonyms": ["sls"],
+      "functions": ["surfactant"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Strong anionic cleansing surfactant; effective but can strip and irritate."
+    },
+    {
+      "inci": "Sodium Laureth Sulfate",
+      "synonyms": ["sles"],
+      "functions": ["surfactant"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Milder ethoxylated cousin of SLS; still a brisk cleanser."
+    },
+    {
+      "inci": "Cocamidopropyl Betaine",
+      "synonyms": ["capb"],
+      "functions": ["surfactant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Gentle amphoteric co-surfactant; impurities make it an occasional allergen."
+    },
+    {
+      "inci": "Coco-Glucoside",
+      "synonyms": [],
+      "functions": ["surfactant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Mild sugar-derived non-ionic surfactant suited to gentle cleansers."
+    },
+    {
+      "inci": "Decyl Glucoside",
+      "synonyms": [],
+      "functions": ["surfactant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Very gentle glucoside surfactant common in sensitive-skin and baby products."
+    },
+    {
+      "inci": "Sodium Cocoyl Isethionate",
+      "synonyms": ["sci"],
+      "functions": ["surfactant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Mild syndet surfactant giving a creamy lather; barrier-friendly."
+    },
+    {
+      "inci": "Phenoxyethanol",
+      "synonyms": [],
+      "functions": ["preservative"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Broad-spectrum preservative; well tolerated at regulated low levels."
+    },
+    {
+      "inci": "Ethylhexylglycerin",
+      "synonyms": [],
+      "functions": ["preservative", "emollient"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Preservative-booster and skin-conditioner often paired with phenoxyethanol."
+    },
+    {
+      "inci": "Benzyl Alcohol",
+      "synonyms": [],
+      "functions": ["preservative", "fragrance"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Mild preservative and solvent; also a listed EU fragrance allergen."
+    },
+    {
+      "inci": "Potassium Sorbate",
+      "synonyms": [],
+      "functions": ["preservative"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Food-grade preservative used against yeasts and moulds."
+    },
+    {
+      "inci": "Sodium Benzoate",
+      "synonyms": [],
+      "functions": ["preservative"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Preservative effective in acidic formulas; gentle."
+    },
+    {
+      "inci": "Methylparaben",
+      "synonyms": [],
+      "functions": ["preservative"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Well-studied paraben preservative with a long safety record at low levels."
+    },
+    {
+      "inci": "Propylparaben",
+      "synonyms": [],
+      "functions": ["preservative"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Paraben preservative; effective against mould and yeast."
+    },
+    {
+      "inci": "Chlorphenesin",
+      "synonyms": [],
+      "functions": ["preservative"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Preservative often combined with phenoxyethanol for broader coverage."
+    },
+    {
+      "inci": "Methylisothiazolinone",
+      "synonyms": ["mi", "mit"],
+      "functions": ["preservative"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Potent preservative and a notorious contact allergen; restricted in leave-on products."
+    },
+    {
+      "inci": "Fragrance",
+      "synonyms": ["parfum", "perfume", "aroma"],
+      "functions": ["fragrance"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Umbrella term for scent blends; the most common cause of cosmetic allergy."
+    },
+    {
+      "inci": "Limonene",
+      "synonyms": ["d-limonene"],
+      "functions": ["fragrance"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Citrus scent compound; an EU-26 declarable fragrance allergen, oxidises over time."
+    },
+    {
+      "inci": "Linalool",
+      "synonyms": [],
+      "functions": ["fragrance"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Floral scent compound; an EU-26 declarable fragrance allergen."
+    },
+    {
+      "inci": "Citronellol",
+      "synonyms": [],
+      "functions": ["fragrance"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Rose-like scent compound on the EU-26 fragrance-allergen list."
+    },
+    {
+      "inci": "Geraniol",
+      "synonyms": [],
+      "functions": ["fragrance"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Rose/geranium scent compound; EU-26 declarable fragrance allergen."
+    },
+    {
+      "inci": "Citral",
+      "synonyms": [],
+      "functions": ["fragrance"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Lemon scent compound; EU-26 declarable fragrance allergen."
+    },
+    {
+      "inci": "Eugenol",
+      "synonyms": [],
+      "functions": ["fragrance"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Clove-like scent compound; EU-26 declarable fragrance allergen."
+    },
+    {
+      "inci": "Coumarin",
+      "synonyms": [],
+      "functions": ["fragrance"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Sweet hay-like scent compound; EU-26 declarable fragrance allergen."
+    },
+    {
+      "inci": "Benzyl Salicylate",
+      "synonyms": [],
+      "functions": ["fragrance"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Balsamic scent compound; EU-26 declarable fragrance allergen."
+    },
+    {
+      "inci": "Hexyl Cinnamal",
+      "synonyms": [],
+      "functions": ["fragrance"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Jasmine-like scent compound; EU-26 declarable fragrance allergen."
+    },
+    {
+      "inci": "Lavender Oil",
+      "synonyms": ["lavandula angustifolia oil", "lavandula angustifolia"],
+      "functions": ["fragrance", "soothing"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Essential oil rich in linalool; pleasant but a common sensitiser."
+    },
+    {
+      "inci": "Peppermint Oil",
+      "synonyms": ["mentha piperita oil"],
+      "functions": ["fragrance"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Cooling essential oil that can irritate and sensitise facial skin."
+    },
+    {
+      "inci": "Citrus Limon Peel Oil",
+      "synonyms": ["lemon oil", "citrus limon peel oil expressed"],
+      "functions": ["fragrance"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": true,
+      "pregnancy_caution": false,
+      "note": "Citrus essential oil; fragrant but phototoxic and a sensitiser."
+    },
+    {
+      "inci": "Alcohol Denat.",
+      "synonyms": ["denatured alcohol", "sd alcohol", "alcohol denat", "ethanol"],
+      "functions": ["solvent"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Volatile alcohol that lightens texture but can dry and sting if high in the list."
+    },
+    {
+      "inci": "Witch Hazel",
+      "synonyms": ["hamamelis virginiana", "hamamelis"],
+      "functions": ["soothing"],
+      "comedogenic": 0,
+      "irritant": true,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Astringent botanical; distillates often carry alcohol that can dry the skin."
+    },
+    {
+      "inci": "Disodium EDTA",
+      "synonyms": ["edta", "tetrasodium edta"],
+      "functions": ["chelator"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Chelator that binds metal ions to keep formulas stable and effective."
+    },
+    {
+      "inci": "Citric Acid",
+      "synonyms": [],
+      "functions": ["ph_adjuster", "exfoliant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Mostly a pH adjuster; a weak AHA only at higher concentrations."
+    },
+    {
+      "inci": "Sodium Hydroxide",
+      "synonyms": ["lye"],
+      "functions": ["ph_adjuster"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Strong base used in tiny amounts to set a formula's pH."
+    },
+    {
+      "inci": "Triethanolamine",
+      "synonyms": ["tea"],
+      "functions": ["ph_adjuster", "emulsifier"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "pH adjuster and emulsifier; used at low levels."
+    },
+    {
+      "inci": "Xanthan Gum",
+      "synonyms": [],
+      "functions": ["thickener"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Natural polysaccharide thickener that gives gels and lotions body."
+    },
+    {
+      "inci": "Carbomer",
+      "synonyms": [],
+      "functions": ["thickener"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Synthetic gelling polymer used to thicken clear gels."
+    },
+    {
+      "inci": "Hydroxyethylcellulose",
+      "synonyms": [],
+      "functions": ["thickener"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Cellulose-derived thickener for water-based textures."
+    },
+    {
+      "inci": "Polysorbate 20",
+      "synonyms": [],
+      "functions": ["emulsifier", "surfactant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Non-ionic emulsifier and solubiliser for small oil/fragrance loads."
+    },
+    {
+      "inci": "Glyceryl Stearate",
+      "synonyms": [],
+      "functions": ["emulsifier", "emollient"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Workhorse emulsifier that also softens skin feel."
+    },
+    {
+      "inci": "Cetearyl Glucoside",
+      "synonyms": [],
+      "functions": ["emulsifier"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Gentle sugar-based emulsifier for milky, skin-friendly lotions."
+    },
+    {
+      "inci": "Lecithin",
+      "synonyms": [],
+      "functions": ["emulsifier", "emollient"],
+      "comedogenic": 2,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Phospholipid emulsifier that also supports the lipid barrier."
+    },
+    {
+      "inci": "Snail Secretion Filtrate",
+      "synonyms": ["snail mucin"],
+      "functions": ["humectant", "barrier_repair"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "K-beauty staple that hydrates and is rich in repair-supporting compounds."
+    },
+    {
+      "inci": "Caffeine",
+      "synonyms": [],
+      "functions": ["antioxidant", "soothing"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Temporarily constricts vessels; common in eye products for de-puffing."
+    },
+    {
+      "inci": "Lactobionic Acid",
+      "synonyms": ["pha"],
+      "functions": ["exfoliant", "humectant", "antioxidant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Polyhydroxy acid; very gentle exfoliation with strong humectant pull."
+    },
+    {
+      "inci": "Mineral-Derived Clay (Kaolin)",
+      "synonyms": ["kaolin", "kaolinite"],
+      "functions": ["thickener"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Mild absorbent clay used in masks to lift oil without stripping."
+    },
+    {
+      "inci": "Bentonite",
+      "synonyms": [],
+      "functions": ["thickener"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Highly absorbent clay; effective oil control but can over-dry."
+    },
+    {
+      "inci": "Zinc Oxide (Non-Nano)",
+      "synonyms": ["non-nano zinc oxide"],
+      "functions": ["uv_filter", "soothing"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Larger-particle mineral filter favoured for sensitive and baby skin."
+    },
+    {
+      "inci": "Niacinamide/Zinc Complex",
+      "synonyms": ["niacinamide zinc"],
+      "functions": ["barrier_repair", "antimicrobial"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Common oil-control pairing of B3 with a zinc salt."
+    },
+    {
+      "inci": "Polyglutamic Acid",
+      "synonyms": ["pga"],
+      "functions": ["humectant"],
+      "comedogenic": 0,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Large humectant that forms a hydrating film, often layered with hyaluronic acid."
+    },
+    {
+      "inci": "Sea Buckthorn Oil",
+      "synonyms": ["hippophae rhamnoides oil"],
+      "functions": ["emollient", "antioxidant"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Carotenoid-rich oil supporting tone and barrier; deeply coloured."
+    },
+    {
+      "inci": "Grapeseed Oil",
+      "synonyms": ["vitis vinifera seed oil"],
+      "functions": ["emollient", "antioxidant"],
+      "comedogenic": 1,
+      "irritant": false,
+      "allergen": false,
+      "pregnancy_caution": false,
+      "note": "Light, linoleic-rich oil that absorbs quickly with low pore risk."
+    }
+  ]
+}

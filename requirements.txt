@@ -1,0 +1,3 @@
+# The skincare engine itself uses only the Python 3.12 standard library.
+# This file lists the (test-only) tooling.
+pytest>=8.0
